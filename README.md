@@ -1,6 +1,5 @@
 # Boilerplate de API utilizando Node Express, Mongo, Docker
-
-Este é um projeto Node.js configurado para desenvolvimento e testes usando Docker. Este guia explica como iniciar o container de desenvolvimento e executar os testes.
+Autor: Ricardo Souza
 
 ### Baixar Repositório
 ```bash
