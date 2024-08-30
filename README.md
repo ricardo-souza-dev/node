@@ -13,17 +13,22 @@ cd node.git
 npm install
 
 docker-compose up --build
-
 ```
 Para executar teste:
 
 ```bash
-git clone https://github.com/ricardo-souza-dev/node.git
-cd node.git
+docker-compose run --rm app npm test
+```
 
-npm install
+Para verificar logs:
 
-docker-compose up --build
+```bash
+docker-compose logs app
+```
 
+Para desativar os containers:
+
+```bash
+docker-compose down
 ```
 
