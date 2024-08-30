@@ -1,4 +1,4 @@
-# Boilerplate de API utilizando Node Express, Mongo, Docker
+# Boilerplate de API - Node Express, Mongo, Docker
 Autor: Ricardo Souza
 
 ### Baixar Repositório
