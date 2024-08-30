@@ -2,32 +2,32 @@
 
 Este é um projeto Node.js configurado para desenvolvimento e testes usando Docker. Este guia explica como iniciar o container de desenvolvimento e executar os testes.
 
-### Iniciando o projeto
-
-Segue abaixo os comandos a executar:
-
+### Baixar Repositório
 ```bash
 git clone https://github.com/ricardo-souza-dev/node.git
 cd node.git
-
+```
+### Iniciar Node Modules
+```bash
 npm install
+```
 
+### Iniciar Ambiente de Desenvolvimento
+```bash
 docker-compose up --build
 ```
-Para executar teste:
 
+### Executar teste
 ```bash
 docker-compose run --rm app npm test
 ```
 
-Para verificar logs:
-
+### Verificar Logs
 ```bash
 docker-compose logs app
 ```
 
-Para desativar os containers:
-
+### Encerrar Ambiente de Desenvolvimento
 ```bash
 docker-compose down
 ```
