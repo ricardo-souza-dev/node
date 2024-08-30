@@ -10,5 +10,20 @@ Segue abaixo os comandos a executar:
 git clone https://github.com/ricardo-souza-dev/node.git
 cd node.git
 
+npm install
+
+docker-compose up --build
+
+```
+Para executar teste:
+
+```bash
+git clone https://github.com/ricardo-souza-dev/node.git
+cd node.git
 
 npm install
+
+docker-compose up --build
+
+```
+
